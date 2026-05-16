@@ -1,4 +1,4 @@
-package primera_unidad;
+package unidad1;
 
 public class Ejerciciocasa6 {
     public static void main(String[] args) {

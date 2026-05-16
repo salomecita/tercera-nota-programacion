@@ -1,4 +1,4 @@
-package primera_unidad;
+package unidad1;
 
 public class EjemploPractico5 {
     

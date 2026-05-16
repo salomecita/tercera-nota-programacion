@@ -1,8 +1,8 @@
-package primera_unidad;
+package unidad1;
 
 import java.util.Scanner;
 
-public class Ejerciciocasa9 {
+public class Ejerciciocasa8 {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
@@ -10,9 +10,15 @@ public class Ejerciciocasa9 {
         System.out.print("Ingrese un número: ");
         int numero = scanner.nextInt();
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(numero + " x " + i + " = " + (numero * i));
+        int factorial = 1;
+        int i = 1;
+
+        while (i <= numero) {
+            factorial *= i;
+            i++;
         }
+
+        System.out.println("El factorial de " + numero + " es: " + factorial);
 
         scanner.close();
     }
